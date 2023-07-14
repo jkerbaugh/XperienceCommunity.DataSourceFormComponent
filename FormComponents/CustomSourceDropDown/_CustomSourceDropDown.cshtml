@@ -1,0 +1,12 @@
+﻿@using Kentico.Forms.Web.Mvc
+@using Kentico.Web.Mvc
+@model CustomSourceDropDownComponent
+
+@{
+    var attributes = ViewData.Kentico().GetEditorHtmlAttributes();
+
+    if (Model.Properties.AllowMultiple)
+        attributes["multiple"] = null;
+}
+
+@Html.DropDownListFor(_ => _.SelectedValue, Model.HtmlOptions.ToSelectListItems(), Model.Properties.OptionLabel, attributes)
