@@ -1,6 +1,6 @@
 ﻿using CMS;
 using Kentico.Forms.Web.Mvc;
-using XperienceCommunity.CustomSourceFormComponents;
+using XperienceCommunity.DataSourceFormComponents;
 
 [assembly: AssemblyDiscoverable]
 

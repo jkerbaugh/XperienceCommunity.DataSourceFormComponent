@@ -4,7 +4,7 @@ using System.Linq;
 using Kentico.Content.Web.Mvc;
 using Kentico.Web.Mvc;
 
-namespace XperienceCommunity.CustomSourceFormComponents
+namespace XperienceCommunity.DataSourceFormComponents
 {
     public class CustomSourceMultiSelectorComponent<TProperties> :
         MultiSelectorFormComponent<TProperties> where TProperties : CustomSourceMultiSelectorProperties, new()

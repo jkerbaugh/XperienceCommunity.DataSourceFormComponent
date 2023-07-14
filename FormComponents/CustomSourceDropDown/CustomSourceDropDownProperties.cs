@@ -1,6 +1,6 @@
 ﻿using Kentico.Forms.Web.Mvc;
 
-namespace XperienceCommunity.CustomSourceFormComponents
+namespace XperienceCommunity.DataSourceFormComponents
 {
     public class CustomSourceDropDownProperties : CustomSourceSelectorProperties
     {

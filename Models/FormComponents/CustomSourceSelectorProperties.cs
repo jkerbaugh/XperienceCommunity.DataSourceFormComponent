@@ -1,9 +1,7 @@
 ﻿using Kentico.Forms.Web.Mvc;
-using XperienceCommunity.CustomSourceFormComponents.Interfaces;
+using static XperienceCommunity.DataSourceFormComponents.TooltipConstants;
 
-using static XperienceCommunity.CustomSourceFormComponents.Models.Contants.TooltipConstants;
-
-namespace XperienceCommunity.CustomSourceFormComponents
+namespace XperienceCommunity.DataSourceFormComponents
 {
     public class CustomSourceSelectorProperties : SelectorProperties, IDataSourceComponent
     {

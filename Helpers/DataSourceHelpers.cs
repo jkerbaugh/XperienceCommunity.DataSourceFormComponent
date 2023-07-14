@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using CMS.DataEngine;
 using System.Data;
 using CMS.Base;
+using CMS.DataEngine;
 using CMS.Helpers;
 using CMS.MacroEngine;
 using Kentico.Web.Mvc;
 
-namespace XperienceCommunity.CustomSourceFormComponents
+namespace XperienceCommunity.DataSourceFormComponents
 {
     internal class DataSourceHelpers
     {

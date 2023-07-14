@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XperienceCommunity.CustomSourceFormComponents.Models.Contants
+﻿namespace XperienceCommunity.DataSourceFormComponents
 {
     internal class TooltipConstants
     {

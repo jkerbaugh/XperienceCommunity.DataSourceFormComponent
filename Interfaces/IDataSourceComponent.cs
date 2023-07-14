@@ -1,7 +1,4 @@
-﻿using Kentico.Forms.Web.Mvc;
-using Microsoft.Azure.Search.Models;
-
-namespace XperienceCommunity.CustomSourceFormComponents.Interfaces
+﻿namespace XperienceCommunity.DataSourceFormComponents
 {
     internal interface IDataSourceComponent
     {

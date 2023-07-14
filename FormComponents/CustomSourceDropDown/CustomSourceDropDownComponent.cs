@@ -1,4 +1,4 @@
-﻿namespace XperienceCommunity.CustomSourceFormComponents
+﻿namespace XperienceCommunity.DataSourceFormComponents
 {
     public class CustomSourceDropDownComponent : CustomSourceSelectorComponent<CustomSourceDropDownProperties>
     {
