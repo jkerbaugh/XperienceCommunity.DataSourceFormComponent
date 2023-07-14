@@ -69,9 +69,9 @@ namespace XperienceCommunity.CustomSourceFormComponents
                         var option = DataToHtmlOptionItem(data.ToString());
 
                         if (!string.IsNullOrEmpty(valueFormat))
-                            option.Value = child.ResolveMacros($@"{{%{MacroProcessor.RemoveDataMacroBrackets(valueFormat)}%}}", null);
+                            option.Value = child.ResolveMacros(valueFormat, null);
                         if (!string.IsNullOrEmpty(textFormat))
-                            option.Text = child.ResolveMacros($@"{{%{MacroProcessor.RemoveDataMacroBrackets(textFormat)}%}}", null);
+                            option.Text = child.ResolveMacros(textFormat, null);
 
                         if (!string.IsNullOrEmpty(option.Text))
                             yield return option;

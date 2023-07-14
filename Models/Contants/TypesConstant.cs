@@ -7,10 +7,5 @@
             Macro
             SQL
         ";
-        
-        internal const string SQL_SOURCE = @"
-            SQLQuery;Sql Query
-            StoredProcedure;Stored Procedure
-        ";
     }
 }
