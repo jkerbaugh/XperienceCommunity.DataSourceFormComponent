@@ -21,7 +21,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\..\kentico.png">
+		<None Include="kentico.png">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
