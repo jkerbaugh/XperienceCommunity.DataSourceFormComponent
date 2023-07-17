@@ -5,7 +5,7 @@
 		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
 		<IsMvcProject>true</IsMvcProject>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-
+		<PackageIcon>kentico.png</PackageIcon>
 		<Version>1.0.0</Version>
 		<Authors>Josh Kerbaugh</Authors>
 		<Company></Company>
@@ -21,6 +21,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="..\..\kentico.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 		<None Include="readme.md">
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
